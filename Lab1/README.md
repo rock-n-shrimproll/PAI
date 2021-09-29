@@ -26,86 +26,49 @@
 
 #### 1.3 Передискретизация изображения в K=M/N раз путём растяжения и последующего сжатия (в два прохода)
 
-Передискретизация изображения в K=3/2 раз за два прохода. Исходный размер `720x458` результирующий размер `1080x687`:
+|**Исходное**|**Размер исходного**| Передискретизация х9/2 | Размер |
+|------------|--------------|------------|--------------|
+|![Original](original/spiral.jpg)| 600  x  600 | ![resampling_double](res/resampling_double_spiral.jpg) | 2700  x  2700 | 
+|![Original](original/colours.jpg)| 757  x  456 | ![resampling_double](res/resampling_double_colours.jpg) | 3406  x  2052 | 
 
-![Resampling2loop](res/downsampling3x2_text1.jpg)
-
----
-
-Передискретизация изображения в K=3/2 раз за два прохода. Исходный размер `720x720` результирующий размер `1080x1080`:
-
-![Resampling2loop](res/downsampling3x2_spiral1.png)
 
 #### 1.4 Передискретизация изображения в K раз за один проход
 
-Передискретизация изображения в K=3/2 раз за один проход. Исходный размер `720x458` результирующий размер `1080x687`:
+|**Исходное**|**Размер исходного**| Передискретизация х9/2 | Размер |
+|------------|--------------|------------|--------------|
+|![Original](original/spiral.jpg)| 600  x  600 | ![resampling_single](res/resampling_single_spiral.jpg) | 2700  x  2700 | 
+|![Original](original/colours.jpg)| 757  x  456 | ![resampling_single](res/resampling_single_colours.jpg) | 3406  x  2052 | 
 
-![Resampling1loop](res/resampling_text1.jpg)
-
----
-
-Передискретизация изображения в K=3/2 раз за один проход. Исходный размер `720x720` результирующий размер `1080x1080`:
-
-![Resampling1loop](res/resampling_spiral1.png)
 
 ### 2. Приведение полноцветного изображения к полутоновому
 
-Исходное изображение:
-
-![Original](../original/test10.png)
-
-Результирующее изображение с обычными коэффицентами:
-
-
-![SemitoneNormal](res/halftone_test10.png)
-
-Результирующее изображение с коэффицентами photoshop:
-
-![SemitoneNormal](res/halftonePS_test10.png)
-
----
-
-Исходное изображение:
-
-![Original](../original/test11.jpg)
-
-Результирующее изображение с обычными коэффицентами:
-
-![SemitoneNormal](res/halftone_test11.jpg)
-
-Результирующее изображение с коэффицентами photoshop:
-
-![SemitoneNormal](res/halftonePS_test11.jpg)
+|**Исходное**|Полутоновое|
+|------------|--------------|
+|![Original](original/text.jpg)| ![Halftone](res/halftonetext.jpg)| 
+|![Original](original/flowers.jpg)| ![Halftone](res/halftoneflowers.jpg) | 
 
 ### 3. Приведение полутонового изображения к монохромному методом пороговой обработки
 
-Исходное изображение:
+1) Исходное:
 
-![Original](res/downsampling_cat2.jpg)
+![Original](res/text/downsampling_singletext.jpg)
 
 |**B \ K**		|					0.2								   |					0.6				    			  |					0.8                                  |
 |---------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
-|**20** 		|![kristian_threshold](res/threshold_b20_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b20_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b20_k0.8_cat2.jpg)|
-|**40**			|![kristian_threshold](res/threshold_b40_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b40_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b40_k0.8_cat2.jpg)|
-|**80**			|![kristian_threshold](res/threshold_b80_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b80_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b80_k0.8_cat2.jpg)|
+|**20** 		|![threshold](res/text/threshold_b20_k0.2_text.jpg)|![threshold](res/text/threshold_b20_k0.6_text.jpg)|![threshold](res/text/threshold_b20_k0.8_text.jpg)|
+|**40**			|![threshold](res/text/threshold_b40_k0.2_text.jpg)|![threshold](res/text/threshold_b40_k0.6_text.jpg)|![threshold](res/text/threshold_b40_k0.8_text.jpg)|
+|**80**			|![threshold](res/text/threshold_b80_k0.2_text.jpg)|![threshold](res/text/threshold_b80_k0.6_text.jpg)|![threshold](res/text/threshold_b80_k0.8_text.jpg)|
 
 
 ---
 
-Исходное изображение:
+2) Исходное:
 
-![Original](../original/text1.jpg)
+![Original](res/flowers/downsampling_singleflowers.jpg)
 
-Результирующее изображение c `k = 0.2`, `b = 15`:
+|**B \ K**		|					0.2								   |					0.6				    			  |					0.8                                  |
+|---------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+|**20** 		|![threshold](res/flowers/threshold_b20_k0.2_flowers.jpg)|![threshold](res/flowers/threshold_b20_k0.6_flowers.jpg)|![threshold](res/flowers/threshold_b20_k0.8_flowers.jpg)|
+|**40**			|![threshold](res/flowers/threshold_b40_k0.2_flowers.jpg)|![threshold](res/flowers/threshold_b40_k0.6_flowers.jpg)|![threshold](res/flowers/threshold_b40_k0.8_flowers.jpg)|
+|**80**			|![threshold](res/flowers/threshold_b80_k0.2_flowers.jpg)|![threshold](res/flowers/threshold_b80_k0.6_flowers.jpg)|![threshold](res/flowers/threshold_b80_k0.8_flowers.jpg)|
 
-![kristian_threshold](res/threshold_text1.jpg)
-
-
-![Original](res/downsampling2_text1.jpg)
-
-
-|**B \ K**		|					0.2									|					0.6									|					0.8                                 |
-|---------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-|**20** 		|![kristian_threshold](res/threshold_b20_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|
-|**40**			|![kristian_threshold](res/threshold_b40_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|
-|**80**			|![kristian_threshold](res/threshold_b80_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b40_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b40_k0.6_downsampling2_text1.jpg)|
