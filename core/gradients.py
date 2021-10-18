@@ -42,7 +42,7 @@ def gradient(image: Image, operator_gx: ndarray, operator_gy: ndarray) -> (ndarr
 
     for x in range(len(gx[0])):
         for y in range(len(gy)):
-            g[y, x] = abs(gnormalx[y, x]) + abs(gnormaly[y, x])
+            g[y, x] = ((gnormalx[y, x])**2 + (gnormaly[y, x])**2)**(1/2)
 
     Min = g.min()
     Max = g.max()

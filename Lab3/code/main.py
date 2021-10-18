@@ -31,12 +31,12 @@ operator_gy = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
 # print("grad : \n", grad)
 # print()
 # print("bin_image : \n", bin_image)
-T = 124 # парметр границы для бинаризации
+T = 124 # параметр границы для бинаризации
 PREFIX = 'Lab3'
 
 filename = "castel.jpg"
 
-original = Image.open(f"original/" + filename)
+original = Image.open(f"../original/" + filename)
 
 semitone = np.array(halftone(original))
 

@@ -72,3 +72,15 @@
 |**40**			|![threshold](res/flowers/threshold_b40_k0.2_flowers.jpg)|![threshold](res/flowers/threshold_b40_k0.6_flowers.jpg)|![threshold](res/flowers/threshold_b40_k0.8_flowers.jpg)|
 |**80**			|![threshold](res/flowers/threshold_b80_k0.2_flowers.jpg)|![threshold](res/flowers/threshold_b80_k0.6_flowers.jpg)|![threshold](res/flowers/threshold_b80_k0.8_flowers.jpg)|
 
+---
+
+3) Исходное
+
+![Original](res/book12/resamplingbook12.jpg)
+
+|**B \ K**		|					0.2								   |					0.6				    			  |					0.8                                  |
+|---------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+|**20** 		|![threshold](res/book12/threshold_b20_k0.2_book12.jpg)|![threshold](res/book12/threshold_b20_k0.6_book12.jpg)|![threshold](res/book12/threshold_b20_k0.8_book12.jpg)|
+|**40**			|![threshold](res/book12/threshold_b40_k0.2_book12.jpg)|![threshold](res/book12/threshold_b40_k0.6_book12.jpg)|![threshold](res/book12/threshold_b40_k0.8_book12.jpg)|
+|**80**			|![threshold](res/book12/threshold_b80_k0.2_book12.jpg)|![threshold](res/book12/threshold_b80_k0.6_book12.jpg)|![threshold](res/book12/threshold_b80_k0.8_book12.jpg)|
+
