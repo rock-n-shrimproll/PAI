@@ -1,3 +1,4 @@
+
 import numpy as np
 from PIL import Image
 from core import halftoning
@@ -6,10 +7,10 @@ from core import texture_anylize
 m = 0
 n = 0
 l = 256
-d = 1
-cross = False
-images_name = [f'{i}.jpg' for i in range(1, 7)]
-attrs = ['corr']
+d = 3
+cross = False  # false - +; true - x
+images_name = [f'{i}.jpg' for i in range(1, 8)]
+attrs = ['asm', 'mpr', 'ent', 'tr']
 work_space = 'Lab7'
 
 with open('Lab7/README.md', mode='w') as file:
