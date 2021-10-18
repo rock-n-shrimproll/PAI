@@ -1,80 +1,93 @@
 # Лабораторная работа №3
 
-## Тема: Выделение контуров на изображении
+### Тема: Выделение контуров на изображении
 
 |**Студент:**|*Долидзе Александра*|
 |------------|--------------|
 |**Группа:** |*Б18-514*     |
 |**Вариант:**|*3*           |
 
-## Примеры
+#### Задание:
+
+Оператор Собеля 3x3
+```
+    -1 -2 -1
+Gx = 0 0 0    * A
+     1 2 1
+```
+```
+     -1 0 1
+Gy = -2 0 2   * A
+     -1 0 1
+```
+---
 
 ### Пример №1
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/rocket.jpg)|![](res/rocket/semitone_rocket.jpg)|
+|![](original/eagle.jpg)|![](res/eagle/semitone_eagle.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
-|![](res/rocket/resx_rocket.jpg)|![](res/rocket/resy_rocket.jpg)|![](res/rocket/res_rocket.jpg)|
+|![](res/eagle/resx_eagle.jpg)|![](res/eagle/resy_eagle.jpg)|![](res/eagle/res_eagle.jpg)|
 
-|**T=130**|**T=132**|**T=134**|
+|**T=124**|**T=126**|**T=128**|**T=130**|
+|---------|---------|---------|------|
+|![](res/eagle/bin_t124_eagle.jpg)|![](res/eagle/bin_t126_eagle.jpg)|![](res/eagle/bin_t128_eagle.jpg)|![](res/eagle/bin_t130_eagle.jpg)|
+---
+### Пример №2 (Баночки)
+
+|**Исходное изображение**|**Полутоновое изображение**|
+|------------------------|---------------------------|
+|![](original/colours.jpg)|![](res/colours/semitone_colours.jpg)|
+
+|**Gx**|**Gy**|**G**|
+|------|------|-----|
+|![](res/colours/resx_colours.jpg)|![](res/colours/resy_colours.jpg)|![](res/colours/res_colours.jpg)|
+
+|**T=120**|**T=130**|**T=140**|**T=150**|
+|---------|---------|---------|---------|
+|![](res/colours/bin_t120_colours.jpg)|![](res/colours/bin_t130_colours.jpg)|![](res/colours/bin_t140_colours.jpg)|![](res/colours/bin_t150_colours.jpg)|
+---
+### Пример №3 (Текст)
+
+|**Исходное изображение**|**Полутоновое изображение**|
+|------------------------|---------------------------|
+|![](original/text.jpg)|![](res/text/semitone_text.jpg)|
+
+|**Gx**|**Gy**|**G**|
+|------|------|-----|
+|![](res/text/resx_text.jpg)|![](res/text/resy_text.jpg)|![](res/text/res_text.jpg)|
+
+|**T=138**|**T=140**|**T=142**|**T=144**|
+|---------|---------|---------|---------|
+|![](res/text/bin_t138_text.jpg)|![](res/text/bin_t140_text.jpg)|![](res/text/bin_t142_text.jpg)|![](res/text/bin_t144_text.jpg)|
+---
+### Пример №4 (Горы)
+
+|**Исходное изображение**|**Полутоновое изображение**|
+|------------------------|---------------------------|
+|![](original/mountain.jpg)|![](res/mountain/semitone_mountain.jpg)|
+
+|**Gx**|**Gy**|**G**|
+|------|------|-----|
+|![](res/mountain/resx_mountain.jpg)|![](res/mountain/resy_mountain.jpg)|![](res/mountain/res_mountain.jpg)|
+
+|**T=136**|**T=138**|**T=140**|**T=142**|
+|---------|---------|---------|---------|
+|![](res/mountain/bin_t136_mountain.jpg)|![](res/mountain/bin_t138_mountain.jpg)|![](res/mountain/bin_t140_mountain.jpg)|![](res/mountain/bin_t142_mountain.jpg)|
+---
+### Пример №6 (Книга)
+
+|**Исходное изображение**|**Полутоновое изображение**|
+|------------------------|---------------------------|
+|![](original/book12.jpg)|![](res/book12/semitone_book12.jpg)|
+
+|**Gx**|**Gy**|**G**|
+|------|------|-----|
+|![](res/book12/resx_book12.jpg)|![](res/book12/resy_book12.jpg)|![](res/book12/res_book12.jpg)|
+
+|**T=132**|**T=134**|**T=136**|
 |---------|---------|---------|
-|![](res/rocket/bin_t130_rocket.jpg)|![](res/rocket/bin_t132_rocket.jpg)|![](res/rocket/bin_t134_rocket.jpg)|
-
-### Пример №2
-
-|**Исходное изображение**|**Полутоновое изображение**|
-|------------------------|---------------------------|
-|![](../original/bridge.png)|![](res/bridge/semitone_bridge.png)|
-
-|**Gx**|**Gy**|**G**|
-|------|------|-----|
-|![](res/bridge/resx_bridge.png)|![](res/bridge/resy_bridge.png)|![](res/bridge/res_bridge.png)|
-
-|**T=128**|**T=130**|**T=132**|**T=134**|
-|---------|---------|---------|---------|
-|![](res/bridge/bin_t128_bridge.png)|![](res/bridge/bin_t130_bridge.png)|![](res/bridge/bin_t132_bridge.png)|![](res/bridge/bin_t134_bridge.png)|
-
-### Пример №3
-
-|**Исходное изображение**|**Полутоновое изображение**|
-|------------------------|---------------------------|
-|![](../original/btr.jpg)|![](res/btr/semitone_btr.jpg)|
-
-|**Gx**|**Gy**|**G**|
-|------|------|-----|
-|![](res/btr/resx_btr.jpg)|![](res/btr/resy_btr.jpg)|![](res/btr/res_btr.jpg)|
-
-|**T=130**|**T=132**|**T=134**|**T=136**|
-|---------|---------|---------|---------|
-|![](res/btr/bin_t130_btr.jpg)|![](res/btr/bin_t132_btr.jpg)|![](res/btr/bin_t134_btr.jpg)|![](res/btr/bin_t136_btr.jpg)|
-
-### Пример №4
-
-|**Исходное изображение**|**Полутоновое изображение**|
-|------------------------|---------------------------|
-|![](../original/lego.jpg)|![](res/lego/semitone_lego.jpg)|
-
-|**Gx**|**Gy**|**G**|
-|------|------|-----|
-|![](res/lego/resx_lego.jpg)|![](res/lego/resy_lego.jpg)|![](res/lego/res_lego.jpg)|
-
-|**T=120**|**T=122**|**T=124**|**T=126**|
-|---------|---------|---------|---------|
-|![](res/lego/bin_t120_lego.jpg)|![](res/lego/bin_t122_lego.jpg)|![](res/lego/bin_t124_lego.jpg)|![](res/lego/bin_t126_lego.jpg)|
-
-### Пример №5
-
-|**Исходное изображение**|**Полутоновое изображение**|
-|------------------------|---------------------------|
-|![](../original/castel.jpg)|![](res/castel/semitone_castel.jpg)|
-
-|**Gx**|**Gy**|**G**|
-|------|------|-----|
-|![](res/castel/resx_castel.jpg)|![](res/castel/resy_castel.jpg)|![](res/castel/res_castel.jpg)|
-
-|**T=120**|**T=122**|**T=124**|**T=126**|
-|---------|---------|---------|---------|
-|![](res/castel/bin_t120_castel.jpg)|![](res/castel/bin_t122_castel.jpg)|![](res/castel/bin_t124_castel.jpg)|![](res/castel/bin_t126_castel.jpg)|
+|![](res/book12/bin_t132_book12.jpg)|![](res/book12/bin_t134_book12.jpg)|![](res/book12/bin_t136_book12.jpg)|
