@@ -3,11 +3,11 @@ from PIL import Image, ImageFont
 from core.calc_features import *
 from core.generate import generate
 
-folderpath = '/home/amir/projects/PAI/letters'
+folderpath = '/Users/alexandradolidze/Downloads/PAI-master/letters'
 
 LETTERS = [char[0] for char in open('Lab4/code/letters.txt', 'r', encoding="UTF-8")]
 
-font = ImageFont.truetype("/home/amir/projects/PAI/fonts/Sylfaen.ttf", size=52)
+font = ImageFont.truetype("/Users/alexandradolidze/Downloads/PAI-master/fonts/chveulebrivy-itv.ttf", size=52)
 generate(LETTERS, font, folderpath)
 
 chars = glob.glob("letters/*.png")
