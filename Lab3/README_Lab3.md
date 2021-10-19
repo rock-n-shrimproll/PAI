@@ -30,7 +30,7 @@ Gy = -2 0 2   * A
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
-|![](res/eagle/resx_eagle.jpg)|![](res/eagle/resy_eagle.jpg)|![](res/rocket/res_eagle.jpg)|
+|![](res/eagle/resx_eagle.jpg)|![](res/eagle/resy_eagle.jpg)|![](res/eagle/res_eagle.jpg)|
 
 |**T=124**|**T=126**|**T=128**|
 |---------|---------|---------|
