@@ -1,3 +1,17 @@
+# Лабораторная работа №5
+
+## Тема: Сегментация текста
+
+|**Студент:**|*Долидзе Александра*|
+|------------|--------------|
+|**Группа:** |*Б18-514*     |
+|**Вариант:**|*Грузинский алфавит*|
+
+### Строка
+
+![sentence](assets/sentence.png)
+
+![invert_sentence](assets/invert_sentence.png)
 
 ### Буква №0
 |Символ|Профиль по х|Профиль по y|
@@ -78,3 +92,63 @@
 |Символ|Профиль по х|Профиль по y|
 |---------------------|--------------------------|--------------------------|
 |![](res/segmentation/chars/15.png)| ![](res/segmentation/profiles/x/15.png)| ![](res/segmentation/profiles/y/15.png)|
+
+### Буква №16
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/16.png)| ![](res/segmentation/profiles/x/16.png)| ![](res/segmentation/profiles/y/16.png)|
+
+### Буква №17
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/17.png)| ![](res/segmentation/profiles/x/17.png)| ![](res/segmentation/profiles/y/17.png)|
+
+### Буква №18
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/18.png)| ![](res/segmentation/profiles/x/18.png)| ![](res/segmentation/profiles/y/18.png)|
+
+### Буква №19
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/19.png)| ![](res/segmentation/profiles/x/19.png)| ![](res/segmentation/profiles/y/19.png)|
+
+### Буква №20
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/20.png)| ![](res/segmentation/profiles/x/20.png)| ![](res/segmentation/profiles/y/20.png)|
+
+### Буква №21
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/21.png)| ![](res/segmentation/profiles/x/21.png)| ![](res/segmentation/profiles/y/21.png)|
+
+### Буква №22
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/22.png)| ![](res/segmentation/profiles/x/22.png)| ![](res/segmentation/profiles/y/22.png)|
+
+### Буква №23
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/23.png)| ![](res/segmentation/profiles/x/23.png)| ![](res/segmentation/profiles/y/23.png)|
+
+### Буква №24
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/24.png)| ![](res/segmentation/profiles/x/24.png)| ![](res/segmentation/profiles/y/24.png)|
+
+### Буква №25
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/25.png)| ![](res/segmentation/profiles/x/25.png)| ![](res/segmentation/profiles/y/25.png)|
+
+### Буква №26
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/26.png)| ![](res/segmentation/profiles/x/26.png)| ![](res/segmentation/profiles/y/26.png)|
+
+### Буква №27
+|Символ|Профиль по х|Профиль по y|
+|---------------------|--------------------------|--------------------------|
+|![](res/segmentation/chars/27.png)| ![](res/segmentation/profiles/x/27.png)| ![](res/segmentation/profiles/y/27.png)|
