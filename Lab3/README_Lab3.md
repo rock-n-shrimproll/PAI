@@ -26,11 +26,11 @@ Gy = -2 0 2   * A
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/eagle.jpg)|![](res/eagle/semitone_eagle.jpg)|
+|![](original/eagle.jpg)|![](res/eagle/semitone_eagle.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
-|![](res/eagle/resx_eagle.jpg)|![](res/eagle/resy_eagle.jpg)|![](res/rocket/res_eagle.jpg)|
+|![](res/eagle/resx_eagle.jpg)|![](res/eagle/resy_eagle.jpg)|![](res/eagle/res_eagle.jpg)|
 
 |**T=124**|**T=126**|**T=128**|
 |---------|---------|---------|
@@ -40,21 +40,21 @@ Gy = -2 0 2   * A
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/colours.png)|![](res/colours/semitone_colours.png)|
+|![](original/colours.jpg)|![](res/colours/semitone_colours.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
-|![](res/colours/resx_colours.png)|![](res/colours/resy_colours.png)|![](res/colours/res_colours.png)|
+|![](res/colours/resx_colours.jpg)|![](res/colours/resy_colours.jpg)|![](res/colours/res_colours.jpg)|
 
 |**T=120**|**T=130**|**T=140**|**T=150**|
 |---------|---------|---------|---------|
-|![](res/colours/bin_t120_colours.png)|![](res/colours/bin_t130_colours.png)|![](res/colours/bin_t140_colours.png)|![](res/colours/bin_t150_colours.png)|
+|![](res/colours/bin_t120_colours.jpg)|![](res/colours/bin_t130_colours.jpg)|![](res/colours/bin_t140_colours.jpg)|![](res/colours/bin_t150_colours.jpg)|
 
 ### Пример №3 (Текст)
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/text.jpg)|![](res/text/semitone_text.jpg)|
+|![](original/text.jpg)|![](res/text/semitone_text.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
@@ -68,7 +68,7 @@ Gy = -2 0 2   * A
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/mountain.jpg)|![](res/mountain/semitone_mountain.jpg)|
+|![](original/mountain.jpg)|![](res/mountain/semitone_mountain.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
@@ -82,7 +82,7 @@ Gy = -2 0 2   * A
 
 |**Исходное изображение**|**Полутоновое изображение**|
 |------------------------|---------------------------|
-|![](../original/book12.jpg)|![](res/book12/semitone_book12.jpg)|
+|![](original/book12.jpg)|![](res/book12/semitone_book12.jpg)|
 
 |**Gx**|**Gy**|**G**|
 |------|------|-----|
